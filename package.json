@@ -1,0 +1,20 @@
+{
+	"name": "blockjs",
+	"version": "1.0.0",
+	"description": "Simple JS blockchain",
+	"main": "app.js",
+	"repository": "https://github.com/jswiss/blockJS.git",
+
+	"scripts": {
+		"start": "nodemon app.js"
+	},
+	"keywords": ["blockchain", "JS", "NodeJS"],
+	"author": "Joshua Swiss",
+	"license": "ISC",
+	"devDependencies": {
+		"nodemon": "^1.17.1"
+	},
+	"dependencies": {
+		"crypto-js": "^3.1.9-1"
+	}
+}
